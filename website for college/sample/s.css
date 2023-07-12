@@ -1,0 +1,114 @@
+element.style {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+}
+#DreamSlider-16212 .DS-IntroText div {
+    padding: 0px 5px;
+}
+#DreamSlider-16212 * {
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    line-height: 1.2em;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+#DreamSlider-16212 li {
+    list-style-type: none!important;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+#DreamSlider-16212 ol, #DreamSlider-16212 ul {
+    list-style: none;
+}
+ul {
+    list-style: square outside;
+}
+ol, ul {
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+#DreamSlider-16212 .introtext {
+    width: 1122px;
+    height: 181px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    color: #ffffff;
+    z-index: 4;
+    margin-left: -561px;
+    overflow: hidden;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+    font-weight: normal;
+}
+body {
+    color: #444;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: rgba(2,139,255,1);
+    color: #fff;
+    text-shadow: none;
+}

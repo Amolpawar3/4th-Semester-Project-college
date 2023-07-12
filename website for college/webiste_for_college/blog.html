@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./real.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <title>University Website</title>
+
+  </head>
+  <body>
+    <section class="sub-header">
+      <div class="div_links" >
+        <ul class="topul" style="background-color: rgb(5, 37, 56);">
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/">University Home</a></li>
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/model-college-ghansawangi/Home.aspx#content">Skip to Main Content</a></li>
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/AboutUniversity/ScreenReader.aspx">Screen Reader</a></li>
+          <li class="btn"><a href="http://www.bamu.ac.in/model-college-ghansawangi/Home.aspx">Font Resize :</a></li>
+          <li class="btn btn-link controls"><a href="#" id="small">A</a>&nbsp; <a href="#" id="medium" class="selected">A</a>
+           &nbsp;<a href="#" id="large">A</a></li>
+        </ul>
+      </div>
+
+      <img id="dnn_dnnLOGO_imgLogo" class="center" src="./../image/aum.png" alt="Dr. Babasaheb Ambedkar Marathwada University :  Official Website.">
+      <nav>
+
+        <a href="index.html"><img src="./../image/logo.png" /></a>
+        
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="web.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <h1>Our Certificate & Online Program For 2022</h1>
+    </section>
+
+    <!-- ---------------- blog page content--------------- -->
+
+
+    <section class="blog-content">
+        <div class="row">
+        <div class="blog-left">
+            <img src="./../image/certificate.jpg">
+            <h2>Our Certificate & Online Program For 2022</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui repudiandae neque tempore enim optio provident sunt, dignissimos consectetur nam hic commodi ut ipsa veolores libero? Laboriosam accusamus, sequi perspiciatis totam consequuntur rerum?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque tempora fuga aspernatur praesentium iusto, quibusdam debitis consectetur! Autem impedit ullam, voluptatibus nam veniam qui vitae nisi ut nihil, laborum accusamus exercitationem ipsam. Maiores dolorem cum nesciunt necessitatibus, officiis facilis aliquam neque soluta amet modi, iure, tenetur perferendis mollitia. Ratione. Lorem ipsum, dolor sit amet consecte</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis omnis numquam obcaecati, odio, facere id porro dicta magni provident illo, temporibus cum. Minus tenetur sunt sapiente atque, aliquid explicabo non, at magni nemo impedit, </p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque dicta delectus quos eos deserunt omnis quis, reiciendis unde nam laboriosam obcaecati cumque soluta tenetur, voluptatibus ad animi amet tempore nisi praesentium. Error, minima distinctio?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita laudantium ex quasi cupiditate. Quo tempora ullam nihil, accusamus mollitia deleniti, architecto obcaecati quae, est asperiores temporibus fugiat labore expedita dolore minima itaque dicta vero iure ea impedit veniam eaque?</p>
+
+
+            <div class="comment-box">
+              <h3>Leave a comment</h3>
+              <form class="comment-form">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="button" class="hero-btn red-btn">POST COMMENT</button>
+              </form>
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Computer Science</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>18</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Biotechnology</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+
+
+
+
+    <!-- -------------footer----------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore dicta minus illum <br> repudiandae voluptate ab nobis nulla, aliquid aliquam! </p>
+      <div class="icons"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+
+
+
+    <!-- ---------------javascript addted in ------------------ -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

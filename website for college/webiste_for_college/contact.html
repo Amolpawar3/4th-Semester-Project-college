@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./real.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <title>University Website</title>
+
+  </head>
+  <body>
+    <section class="sub-header">
+      <div class="div_links" >
+        <ul class="topul" style="background-color: rgb(5, 37, 56);">
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/">University Home</a></li>
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/model-college-ghansawangi/Home.aspx#content">Skip to Main Content</a></li>
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/AboutUniversity/ScreenReader.aspx">Screen Reader</a></li>
+          <li class="btn"><a href="http://www.bamu.ac.in/model-college-ghansawangi/Home.aspx">Font Resize :</a></li>
+          <li class="btn btn-link controls"><a href="#" id="small">A</a>&nbsp; <a href="#" id="medium" class="selected">A</a>
+           &nbsp;<a href="#" id="large">A</a></li>
+        </ul>
+      </div>
+
+      <img id="dnn_dnnLOGO_imgLogo" class="center" src="./../image/aum.png" alt="Dr. Babasaheb Ambedkar Marathwada University :  Official Website.">
+      <nav>
+
+        <a href="index.html"><img src="./../image/logo.png" /></a>
+        
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="web.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <h1>Contact Us</h1>
+    </section>
+
+    <!-- ---------------- contact us--------------- -->
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.1793104915173!2d76.0071348148293!3d19.533913886826863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdaec26b850cb13%3A0x9e71c574131c1ef9!2sModel%20Degree%20College%2C%20Ghansawangi!5e0!3m2!1sen!2sin!4v1646128560541!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+    </section>
+
+
+    <section class="contact-us">
+       <div class="row">
+         <div class="contact-col">
+           <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>ghansawangi rajegaon road</h5>
+              <p>ghansawangi jalna maharashtra</p>
+            </span>
+           </div>
+           <div>
+            <i class="fa fa-phone"></i>
+            <span>
+            <h5>+91 7499025887</h5>
+            <p>Monday to Saturday, 10AM to 5PM</p>
+          </span>
+           </div>
+           <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+            <h5>amolpawar7499@gmail.com</h5>
+           <p>Email us your query</p>
+          </span>
+           </div>
+         </div>
+         <div class="contact-col">
+            
+          <form action="form_hander.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="text" name="subject" placeholder="Enter your Subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Seng Message</button>
+          </form>
+
+
+         </div>
+       </div>
+    </section>
+
+
+    <!-- -------------footer----------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore dicta minus illum <br> repudiandae voluptate ab nobis nulla, aliquid aliquam! </p>
+      <div class="icons"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+
+
+
+    <!-- ---------------javascript addted in ------------------ -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./real.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <title>University Website</title>
+
+  </head>
+  <body>
+    <section class="sub-header">
+      <div class="div_links" >
+        <ul class="topul" style="background-color: rgb(5, 37, 56);">
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/">University Home</a></li>
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/model-college-ghansawangi/Home.aspx#content">Skip to Main Content</a></li>
+          <li class="btn btn-link"><a href="http://www.bamu.ac.in/AboutUniversity/ScreenReader.aspx">Screen Reader</a></li>
+          <li class="btn"><a href="http://www.bamu.ac.in/model-college-ghansawangi/Home.aspx">Font Resize :</a></li>
+          <li class="btn btn-link controls"><a href="#" id="small">A</a>&nbsp; <a href="#" id="medium" class="selected">A</a>
+           &nbsp;<a href="#" id="large">A</a></li>
+        </ul>
+      </div>
+
+      <img id="dnn_dnnLOGO_imgLogo" class="center" src="./../image/aum.png" alt="Dr. Babasaheb Ambedkar Marathwada University :  Official Website.">
+      <nav>
+
+        <a href="index.html"><img src="./../image/logo.png" /></a>
+        
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="web.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <h1>Our Courses</h1>
+    </section>
+
+    <!-- ---------------- courses--------------- -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tempora.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis similique dolor incidunt aliquam, ea illum, soluta vitae veritatis doloribus minus! Enim debitis eum reiciendis beatae optio earum. Vel, itaque.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis similique dolor incidunt aliquam, ea illum, soluta vitae veritatis doloribus minus! Enim debitis eum reiciendis beatae optio earum. Vel, itaque.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Gruduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis similique dolor incidunt aliquam, ea illum, soluta vitae veritatis doloribus minus! Enim debitis eum reiciendis beatae optio earum. Vel, itaque.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+
+    <!-- -------------footer----------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore dicta minus illum <br> repudiandae voluptate ab nobis nulla, aliquid aliquam! </p>
+      <div class="icons"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+
+
+
+    <!-- ---------------javascript addted in ------------------ -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
